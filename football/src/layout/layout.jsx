@@ -1,6 +1,5 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import AuthProvider from '../auth/authProvide/authProvider';
 import Footer from '../components/footer/Footer';
 import Navbar from '../components/navbar/Navbar';
 import './l.css'
@@ -10,9 +9,7 @@ const Layout = () => {
             <Navbar/>
             <div className="out">
             {
-                <AuthProvider>
-                    <Outlet/>
-                </AuthProvider>
+                    <Outlet/>   
             }
             </div>
             <Footer/>
