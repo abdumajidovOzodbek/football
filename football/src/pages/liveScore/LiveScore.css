@@ -1,0 +1,37 @@
+.score{
+    justify-content: space-around;
+}
+.team1{
+    display: flex;
+}
+.team2{
+    display: flex;
+}
+.team_score1{
+    width: 20%;
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 30px;
+   font-size: 30px;
+}
+.team2{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.team1{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.fall{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid greenyellow;
+    background-color: azure;
+}
+img{
+    width: 50px;
+}

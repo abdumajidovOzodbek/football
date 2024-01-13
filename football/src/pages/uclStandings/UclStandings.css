@@ -1,0 +1,52 @@
+.start{
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+
+}
+.item{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid blue;
+    border-top: 2px solid blue;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.551);
+}
+.group{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.group h4{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.result1 h2{
+    font-weight:normal;
+}
+.result1 h2:nth-child(6){
+    font-weight: bolder;
+}
+.standing{
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.groups{
+    display: flex;
+    justify-content: space-around;
+}
+.result1{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid; */
+    width: 50%;
+    align-items: center;
+   
+}

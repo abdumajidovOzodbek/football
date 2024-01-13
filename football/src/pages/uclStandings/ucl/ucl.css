@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.active2{
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+    color: rgba(6, 78, 78, 0.64);
+    transition: 2s;
+}
